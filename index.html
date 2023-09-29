@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <form action="" id="tasks__form" class="border border-primary p-3 my-5">
+                    <div class="mb-3 mt-3">
+                        <input type="text" name="text" id="text" class="form-control" placeholder="type your task">
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" name="submit" id="submit" class="form-control btn btn-success text-white" value="add">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="col-md-12 mx-auto">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Task Name</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="show">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="./JS/file.js"></script>
+</body>
+</html>
